@@ -27,7 +27,7 @@ var validate = function (username, callback) {
       };
 };
 
-server.pack.register(require('hapi-auth-basic'), function (err) {
+server.pack.register(require('hapi-auth-couchdb'), function (err) {
 
     server.auth.strategy('simple', 'couchdb', { validateFunc: validate });
     server.route({ method: 'GET', path: '/', config: { auth: 'simple' } });
