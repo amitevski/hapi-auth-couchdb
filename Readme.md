@@ -2,6 +2,8 @@
 
 Lead Maintainer: [Aco Mitevski](https://github.com/amitevski)
 
+Supports [Hapi 8.0](https://github.com/hapijs/hapi)
+
 CouchDB authentication requires validating a AuthSession Cookie. The `'couchdb'` scheme takes the following options:
 
 - `validateFunc` - (required) a user lookup and password validation function with the signature `function(username, password, callback)` where:
