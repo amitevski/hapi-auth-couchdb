@@ -1,6 +1,6 @@
 {
   "name": "hapi-auth-couchdb",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "hapi auth plugin to check authentication against couchdb",
   "main": "index.js",
   "scripts": {
